@@ -60,13 +60,21 @@ a{
 .banner{
     background: rgba(255, 255, 255, 0.8);
     text-align: center;
-    padding: 2rem;
+    padding: 1rem;
     display: inline-block;
 }
 .banner-title{
-    font-size: 3.5rem;
+    font-size: 1.5rem;
     letter-spacing: 0.3rem;
-    margin-bottom: 3rem;
+    margin-bottom: 1rem;
+}
+@media screen and (min-width: 576px){
+    .banner-title{
+        font-size: 3.5rem;
+    }
+    .banner{
+        padding: 2rem;
+    }
 }
 .banner-btn{
     padding: 1rem 3rem;
